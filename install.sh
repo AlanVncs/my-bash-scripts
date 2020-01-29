@@ -69,6 +69,7 @@ sleep 1
 
 echo "#"
 echo "#   Finalizando a instalação..."
+echo "#"
 
 cp -R ${SRC} "${installDir}"
 

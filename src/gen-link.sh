@@ -5,7 +5,7 @@
 # Descrição: Cria um link que será o comando para executar o script
 
 
-DIR="$(dirname ${0})"
+DIR="$(dirname `readlink -f "${0}"`)"
 source "${DIR}/colors"
 
 # Verifica se foi executado como root

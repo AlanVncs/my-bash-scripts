@@ -5,3 +5,4 @@
 # Descrição: Atualiza os pacotes
 
 sudo apt update -y && sudo apt upgrade -y
+telegram-update

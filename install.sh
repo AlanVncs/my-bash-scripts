@@ -33,8 +33,8 @@ if [[ "${arg}" == "false" && -e "${installDir}" ]]; then
     echo -e "#"
     echo -e "#   O diretório de instalação ${COLORS_FILE}${installDir}${COLORS_CLR} já existe. O que deseja fazer?"
     echo -e "#"
-    echo -e "#   ${COLORS_CMD}1${COLORS_CLR} - Modificar o diretório de instalação (Recomendado)"
-    echo -e "#   ${COLORS_CMD}2${COLORS_CLR} - Substituir (Apaga todo o conteúdo do diretório antes de instalar)"
+    echo -e "#   ${COLORS_CMD}1${COLORS_CLR} - Instalar em outro diretório"
+    echo -e "#   ${COLORS_CMD}2${COLORS_CLR} - Instalar no mesmo diretório substituindo os arquivos atuais"
     echo -e "#"
     echo -n "#   Digite o número da opção: "
     read opt
